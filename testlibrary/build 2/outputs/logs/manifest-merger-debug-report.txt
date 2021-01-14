@@ -1,0 +1,47 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml:2:1-12:12
+INJECTED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml:2:1-12:12
+INJECTED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml:2:1-12:12
+INJECTED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml:2:1-12:12
+INJECTED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml:2:1-12:12
+INJECTED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml:2:1-12:12
+INJECTED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml:2:1-12:12
+	package
+		ADDED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml:3:5-33
+		INJECTED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml
+		INJECTED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml
+		ADDED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml:2:1-12:12
+		INJECTED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml
+		ADDED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml:2:1-12:12
+		INJECTED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml:5:5-10:19
+activity#cn.ysf.testlibrary.AbbActivity
+ADDED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml:7:9-49
+	android:name
+		ADDED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml:7:19-46
+activity#cn.ysf.testlibrary.AccActivity
+ADDED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml:8:9-49
+	android:name
+		ADDED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml:8:19-46
+uses-sdk
+INJECTED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml
+INJECTED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml
+INJECTED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml
+INJECTED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml
+		ADDED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml
+		INJECTED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml
+		ADDED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml
+		INJECTED from /Users/yangzhizhong/Desktop/Engineer/testlibrary/src/main/AndroidManifest.xml

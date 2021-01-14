@@ -12,6 +12,8 @@ android {
         versionCode rootProject.ext.versionCode
         versionName rootProject.ext.versionName
 
+        flavorDimensions "versionCode"
+
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
         javaCompileOptions {
@@ -35,6 +37,18 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    productFlavors {
+        // 正式环境
+        prd {
+            resValue "string", "url", "xxx正式地址"
+        }
+
+        // 开发环境
+        dev {
+            resValue "string", "url", "xxx测试地址"
+        }
     }
 
     android.applicationVariants.all { variant ->

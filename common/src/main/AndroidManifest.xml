@@ -1,18 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="cn.ysf.common">
 
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.FLASHLIGHT" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- 硬件加速对X5视频播放非常重要，建议开启 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
     <application>
 
         <activity android:name=".view.explosion.ExplosionActivity" />
+
+        <activity android:name=".view.webview.TestMainActivity" />
+
+        <activity android:name=".view.webview.BrowserActivity" />
+
+        <activity android:name=".view.webview.FullScreenActivity" />
+
+        <activity android:name=".view.webview.FilechooserActivity" />
 
         <activity
             android:name=".zxing.CaptureActivity"
@@ -21,10 +41,10 @@
             android:stateNotNeeded="true"
             android:windowSoftInputMode="stateAlwaysHidden">
 
-           <!-- <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>-->
+            <!-- <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+                 <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>-->
             <intent-filter>
                 <action android:name="com.google.zxing.client.android.SCAN" />
                 <category android:name="android.intent.category.DEFAULT" />

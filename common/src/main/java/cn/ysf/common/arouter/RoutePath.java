@@ -6,11 +6,12 @@ package cn.ysf.common.arouter;
 public class RoutePath {
 
     // 主界面
-    public static final String APP_ACTIVITY_MAIN = "/app/MainActivity";
+    public static final String APP_ACTIVITY_MAIN = "/app/TestMainActivity";
 
     // common 模块
     public static final String COMMON_ACTIVITY_EXPLOSION = "/common/ExplosionActivity";
     public static final String COMMON_ACTIVITY_CAPTURE = "/common/CaptureActivity";
+    public static final String COMMON_ACTIVITY_TEST_MAIN = "/common/TestMainActivity";
 
 
     public static final String APP_ACTIVITY_TEST = "/app/TestActivity";

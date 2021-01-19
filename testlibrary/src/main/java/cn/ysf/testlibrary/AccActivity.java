@@ -12,6 +12,7 @@ import butterknife.BindView;
 import cn.ysf.common.BaseConstant;
 import cn.ysf.common.arouter.RoutePath;
 import cn.ysf.common.base.BaseActivity;
+import cn.ysf.common.dialog.SignInDialog;
 
 @Route(path = RoutePath.TEST_ACTIVITY_Acc)
 public class AccActivity extends BaseActivity {
@@ -25,10 +26,9 @@ public class AccActivity extends BaseActivity {
         acc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getBaseContext(), "组建化测试结束", Toast.LENGTH_LONG).show();
-                ARouter.getInstance().build(RoutePath.APP_ACTIVITY_MAIN)
-                        .withInt(BaseConstant.KEY_INDEX, BaseConstant.INDEX_HOME_TWO)
-                        .navigation();
+                SignInDialog signInDialog = new SignInDialog(getActivity());
+                signInDialog.show();
+                signInDialog.setIntegral("30");
             }
         });
     }

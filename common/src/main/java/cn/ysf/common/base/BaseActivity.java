@@ -1,5 +1,6 @@
 package cn.ysf.common.base;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -44,6 +45,10 @@ public abstract class BaseActivity extends AppCompatActivity {
             unbinder = null;
         }
         super.onDestroy();
+    }
+
+    public Activity getActivity() {
+        return this;
     }
 
     public void onBackClick() {

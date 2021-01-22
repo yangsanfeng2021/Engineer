@@ -1,6 +1,7 @@
 package cn.ysf.common.base;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -45,6 +46,12 @@ public abstract class BaseActivity extends AppCompatActivity {
             unbinder = null;
         }
         super.onDestroy();
+    }
+
+    @Nullable
+    public Bundle getBundle() {
+        Intent intent = getIntent();
+        return intent != null ? intent.getExtras() : null;
     }
 
     public Activity getActivity() {

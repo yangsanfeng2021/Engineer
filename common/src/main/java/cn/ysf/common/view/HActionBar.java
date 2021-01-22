@@ -7,6 +7,7 @@ import android.content.res.ColorStateList;
 import android.content.res.TypedArray;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
+import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -79,7 +80,7 @@ public class HActionBar extends RelativeLayout implements View.OnClickListener, 
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.HActionBar);
         Drawable background = typedArray.getDrawable(R.styleable.HActionBar_srcBackground);
         if (background == null) {
-            background = new ColorDrawable(ContextCompat.getColor(context,R.color.app_bg));
+            background = new ColorDrawable(ContextCompat.getColor(context, R.color.app_bg));
         }
         setBackground(background);
         setFunction(typedArray.getInt(R.styleable.HActionBar_function, 0));

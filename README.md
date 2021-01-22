@@ -8,4 +8,3 @@ adb install -r xxx.apk   安装xxx.apk
 
 git push -u origin master  Git代码提交到master分支
 
-

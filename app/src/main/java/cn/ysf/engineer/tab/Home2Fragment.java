@@ -34,7 +34,7 @@ public class Home2Fragment extends BaseFragment {
         webViewTv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ARouter.getInstance().build(RoutePath.COMMON_ACTIVITY_TEST_MAIN).navigation();
+                ARouter.getInstance().build(RoutePath.COMMON_ACTIVITY_WEB_VIEW).navigation();
             }
         });
     }

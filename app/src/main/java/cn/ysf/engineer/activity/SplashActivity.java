@@ -17,7 +17,7 @@ import cn.ysf.engineer.R;
 public class SplashActivity extends BaseActivity {
 
     private AppHandler appHandler;
-    private int time = 3;
+    private int time = 1;
 
     @Override
     protected int getLayoutId() {
@@ -31,8 +31,11 @@ public class SplashActivity extends BaseActivity {
     }
 
     private void initListener() {
-        appHandler = new AppHandler(this, Looper.getMainLooper());
-        appHandler.sendEmptyMessage(183);
+        ARouter.getInstance().build(RoutePath.APP_ACTIVITY_MAIN).navigation();
+        finish();
+
+//        appHandler = new AppHandler(this, Looper.getMainLooper());
+//        appHandler.sendEmptyMessage(183);
 
         //timer.start();
     }
@@ -58,6 +61,7 @@ public class SplashActivity extends BaseActivity {
                 appHandler.sendEmptyMessageDelayed(183, 1000);
             } else {
                 ARouter.getInstance().build(RoutePath.APP_ACTIVITY_MAIN).navigation();
+                finish();
             }
         }
     }

@@ -19,9 +19,6 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
-    <!-- 硬件加速对X5视频播放非常重要，建议开启 -->
-    <uses-permission android:name="android.permission.GET_TASKS" />
-
     <application>
 
         <activity android:name=".view.explosion.ExplosionActivity" />
@@ -33,6 +30,10 @@
         <activity android:name=".view.webview.FullScreenActivity" />
 
         <activity android:name=".view.webview.FilechooserActivity" />
+
+        <activity android:name=".activity.WebViewActivity" />
+
+        <activity android:name=".activity.PreviewImageActivity" />
 
         <activity
             android:name=".zxing.CaptureActivity"

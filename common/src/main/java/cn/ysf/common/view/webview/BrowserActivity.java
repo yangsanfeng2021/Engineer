@@ -59,7 +59,7 @@ public class BrowserActivity extends Activity {
     private Button mGo;
     private EditText mUrl;
 
-    private static final String mHomeUrl = "https://mp.weixin.qq.com/s/PPL9WkXwRIAwzt0qTVfL0w";
+    private static final String mHomeUrl = "https://mp.weixin.qq.com/s/6aDEddBEugzRuTiaQPtLeQ";
     private static final String TAG = "SdkDemo";
     private static final int MAX_LENGTH = 14;
     private boolean mNeedTestPage = false;

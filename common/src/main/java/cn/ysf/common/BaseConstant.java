@@ -16,4 +16,6 @@ public class BaseConstant {
     public static final String ROUTE_PATH = "route_path";
     public static final String ROUTE_BUNDLE = "route_bundle";
 
+    public static final String WEB_URL = "web_url";
+
 }

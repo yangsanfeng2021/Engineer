@@ -37,7 +37,7 @@ public class HomeFragment extends BaseFragment {
         explosionTv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ARouter.getInstance().build(RoutePath.COMMON_ACTIVITY_EXPLOSION).navigation();
+                ARouter.getInstance().build(RoutePath.COMMON_ACTIVITY_TEST_MAIN).navigation();
             }
         });
     }

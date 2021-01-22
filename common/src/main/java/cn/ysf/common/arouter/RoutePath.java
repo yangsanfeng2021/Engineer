@@ -11,6 +11,7 @@ public class RoutePath {
     // common 模块
     public static final String COMMON_ACTIVITY_EXPLOSION = "/common/ExplosionActivity";
     public static final String COMMON_ACTIVITY_CAPTURE = "/common/CaptureActivity";
+    public static final String COMMON_ACTIVITY_WEB_VIEW = "/common/WebViewActivity";
     public static final String COMMON_ACTIVITY_TEST_MAIN = "/common/TestMainActivity";
 
 

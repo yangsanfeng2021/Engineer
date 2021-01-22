@@ -41,6 +41,36 @@
                 app:lineVisible="true" />
 
             <cn.ysf.common.view.ItemView
+                android:id="@+id/explosionItemView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:iconArrowVisible="true"
+                app:iconVisible="true"
+                app:itemIcon="@mipmap/item_view"
+                app:itemTitle="粒子爆破动画"
+                app:lineVisible="true" />
+
+            <cn.ysf.common.view.ItemView
+                android:id="@+id/webViewItemView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:iconArrowVisible="true"
+                app:iconVisible="true"
+                app:itemIcon="@mipmap/item_view"
+                app:itemTitle="WebView相关功能"
+                app:lineVisible="true" />
+
+            <cn.ysf.common.view.ItemView
+                android:id="@+id/erCodeItemView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:iconArrowVisible="true"
+                app:iconVisible="true"
+                app:itemIcon="@mipmap/item_view"
+                app:itemTitle="二维码"
+                app:lineVisible="true" />
+
+            <cn.ysf.common.view.ItemView
                 android:id="@+id/testItemView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

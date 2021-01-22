@@ -22,6 +22,15 @@ public class MineFragment extends BaseFragment {
     @BindView(R.id.animLogoViewItemView)
     ItemView animLogoViewItemView;
 
+    @BindView(R.id.explosionItemView)
+    ItemView explosionItemView;
+
+    @BindView(R.id.webViewItemView)
+    ItemView webViewItemView;
+
+    @BindView(R.id.erCodeItemView)
+    ItemView erCodeItemView;
+
     @BindView(R.id.testItemView)
     ItemView testItemView;
 
@@ -37,8 +46,15 @@ public class MineFragment extends BaseFragment {
     }
 
     private void initListener() {
-        animLogoViewItemView.setOnClickListener(v -> ARouter.getInstance().build(RoutePath.COMMON_ACTIVITY_ANIM_LOGO).navigation());
-
-        testItemView.setOnClickListener(v -> ARouter.getInstance().build(RoutePath.APP_ACTIVITY_TEST).navigation());
+        animLogoViewItemView.setOnClickListener(v ->
+                ARouter.getInstance().build(RoutePath.COMMON_ACTIVITY_ANIM_LOGO).navigation());
+        explosionItemView.setOnClickListener(v ->
+                ARouter.getInstance().build(RoutePath.COMMON_ACTIVITY_EXPLOSION).navigation());
+        webViewItemView.setOnClickListener(v ->
+                ARouter.getInstance().build(RoutePath.COMMON_ACTIVITY_WEB_VIEW).navigation());
+        erCodeItemView.setOnClickListener(v ->
+                ARouter.getInstance().build(RoutePath.COMMON_ACTIVITY_CAPTURE).navigation());
+        testItemView.setOnClickListener(v ->
+                ARouter.getInstance().build(RoutePath.APP_ACTIVITY_TEST).navigation());
     }
 }

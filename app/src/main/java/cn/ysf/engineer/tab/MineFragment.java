@@ -31,6 +31,9 @@ public class MineFragment extends BaseFragment {
     @BindView(R.id.erCodeItemView)
     ItemView erCodeItemView;
 
+    @BindView(R.id.imageItemView)
+    ItemView imageItemView;
+
     @BindView(R.id.testItemView)
     ItemView testItemView;
 
@@ -54,6 +57,8 @@ public class MineFragment extends BaseFragment {
                 ARouter.getInstance().build(RoutePath.COMMON_ACTIVITY_WEB_VIEW).navigation());
         erCodeItemView.setOnClickListener(v ->
                 ARouter.getInstance().build(RoutePath.COMMON_ACTIVITY_CAPTURE).navigation());
+        imageItemView.setOnClickListener(v ->
+                ARouter.getInstance().build(RoutePath.COMMON_ACTIVITY_IMAGE).navigation());
         testItemView.setOnClickListener(v ->
                 ARouter.getInstance().build(RoutePath.APP_ACTIVITY_TEST).navigation());
     }

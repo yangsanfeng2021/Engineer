@@ -13,6 +13,7 @@ public class RoutePath {
     public static final String COMMON_ACTIVITY_CAPTURE = "/common/CaptureActivity";
     public static final String COMMON_ACTIVITY_WEB_VIEW = "/common/WebViewActivity";
     public static final String COMMON_ACTIVITY_ANIM_LOGO = "/common/AnimLogoViewActivity";
+    public static final String COMMON_ACTIVITY_IMAGE = "/common/ImageActivity";
     public static final String COMMON_ACTIVITY_TEST_MAIN = "/common/TestMainActivity";
 
 

@@ -35,6 +35,8 @@
 
         <activity android:name=".activity.PreviewImageActivity" />
 
+        <activity android:name=".activity.AnimLogoViewActivity" />
+
         <activity
             android:name=".zxing.CaptureActivity"
             android:clearTaskOnLaunch="true"

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <cn.ysf.common.view.HActionBar
+        android:id="@+id/logoViewHAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:function="button_left|text_title"
+        app:layout_constraintBottom_toTopOf="@id/animLogoView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:textTitle="Logo动画" />
+
+    <cn.ysf.common.view.AnimLogoView
+        android:id="@+id/animLogoView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:autoPlay="false"
+        app:gradientAnimDuration="2000"
+        app:gradientColor="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logoViewHAction"
+        app:logoName="Welcome To China"
+        app:offsetAnimDuration="1500"
+        app:showGradient="true"
+        app:textColor="@color/colorPrimary"
+        app:textPadding="2dp"
+        app:textSize="30sp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

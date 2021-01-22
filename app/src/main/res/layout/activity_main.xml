@@ -33,19 +33,17 @@
             android:layout_weight="1"
             app:itemImg="@mipmap/ic_tab_mine"
             app:itemImgSelected="@mipmap/ic_tab_mine_selected"
-            app:itemStateSelected="true"
-            app:itemTitle="主页"
-            app:unreadNum="111" />
+            app:itemName="主页"
+            app:itemStateSelected="true" />
 
         <cn.ysf.common.view.TabView
             android:id="@+id/home1TabView"
             android:layout_width="0dp"
             android:layout_height="70dp"
             android:layout_weight="1"
-            app:dotVisible="true"
             app:itemImg="@mipmap/ic_tab_mine"
             app:itemImgSelected="@mipmap/ic_tab_mine_selected"
-            app:itemTitle="主页2" />
+            app:itemName="主页2" />
 
         <cn.ysf.common.view.TabView
             android:id="@+id/home2TabView"
@@ -54,8 +52,7 @@
             android:layout_weight="1"
             app:itemImg="@mipmap/ic_tab_mine"
             app:itemImgSelected="@mipmap/ic_tab_mine_selected"
-            app:itemTitle="主页3"
-            app:unreadNum="1" />
+            app:itemName="主页3" />
 
         <cn.ysf.common.view.TabView
             android:id="@+id/mineTabView"
@@ -64,8 +61,7 @@
             android:layout_weight="1"
             app:itemImg="@mipmap/ic_tab_mine"
             app:itemImgSelected="@mipmap/ic_tab_mine_selected"
-            app:itemTitle="我的"
-            app:unreadNum="9999+" />
+            app:itemName="我的" />
 
     </LinearLayout>
 

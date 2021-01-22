@@ -73,7 +73,7 @@ public class TabView extends FrameLayout {
 
     private void initAttr(Context context, AttributeSet attrs) {
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.TabView);
-        itemTitle = typedArray.getString(R.styleable.TabView_itemTitle);
+        itemTitle = typedArray.getString(R.styleable.TabView_itemName);
         setItemTitle(itemTitle);
         itemImg = typedArray.getDrawable(R.styleable.TabView_itemImg);
         itemImgSelected = typedArray.getDrawable(R.styleable.TabView_itemImgSelected);

@@ -11,6 +11,7 @@ import com.alibaba.android.arouter.launcher.ARouter;
 import butterknife.BindView;
 import cn.ysf.common.arouter.RoutePath;
 import cn.ysf.common.base.BaseFragment;
+import cn.ysf.common.view.ItemView;
 import cn.ysf.engineer.R;
 
 /**
@@ -18,8 +19,11 @@ import cn.ysf.engineer.R;
  */
 public class MineFragment extends BaseFragment {
 
-    @BindView(R.id.mineTv)
-    TextView mineTv;
+    @BindView(R.id.animLogoViewItemView)
+    ItemView animLogoViewItemView;
+
+    @BindView(R.id.testItemView)
+    ItemView testItemView;
 
     @Override
     protected int getLayoutId() {
@@ -29,11 +33,12 @@ public class MineFragment extends BaseFragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        mineTv.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ARouter.getInstance().build(RoutePath.APP_ACTIVITY_TEST).navigation();
-            }
-        });
+        initListener();
+    }
+
+    private void initListener() {
+        animLogoViewItemView.setOnClickListener(v -> ARouter.getInstance().build(RoutePath.COMMON_ACTIVITY_ANIM_LOGO).navigation());
+
+        testItemView.setOnClickListener(v -> ARouter.getInstance().build(RoutePath.APP_ACTIVITY_TEST).navigation());
     }
 }

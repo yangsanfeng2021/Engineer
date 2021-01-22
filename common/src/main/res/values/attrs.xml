@@ -4,7 +4,7 @@
     <declare-styleable name="TabView">
         <attr name="itemImg" format="reference" />
         <attr name="itemImgSelected" format="reference" />
-        <attr name="itemTitle" format="string|reference" />
+        <attr name="itemName" format="string|reference" />
         <attr name="itemTitleColor" format="reference|color" />
         <attr name="itemTitleColorSelected" format="reference|color" />
         <attr name="dotVisible" format="boolean" />
@@ -24,6 +24,29 @@
             <flag name="text_title" value="4" />
             <flag name="text_right" value="8" />
         </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ItemView">
+        <attr name="itemIcon" format="reference" />
+        <attr name="iconVisible" format="boolean" />
+        <attr name="iconArrowVisible" format="boolean" />
+        <attr name="itemTitle" format="reference|string" />
+        <attr name="itemContent" format="reference|string" />
+        <attr name="itemHintContent" format="reference|string" />
+        <attr name="lineVisible" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="AnimLogoView">
+        <attr name="logoName" format="string" />
+        <attr name="autoPlay" format="boolean" />
+        <attr name="offsetAnimDuration" format="integer" />
+        <attr name="gradientAnimDuration" format="integer" />
+        <attr name="gradientColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="verticalOffset" format="dimension" />
+        <attr name="textPadding" format="dimension" />
+        <attr name="showGradient" format="boolean" />
     </declare-styleable>
 
 </resources>

@@ -28,6 +28,8 @@
             android:name=".activity.MainActivity"
             android:launchMode="singleTask" />
 
+        <activity android:name=".activity.RatingBarActivity" />
+
         <activity android:name=".activity.TestActivity" />
     </application>
 

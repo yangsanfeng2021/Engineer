@@ -7,6 +7,8 @@ public class RoutePath {
 
     // 主界面
     public static final String APP_ACTIVITY_MAIN = "/app/TestMainActivity";
+    public static final String APP_ACTIVITY_RATING_BAR = "/app/RatingBarActivity";
+    public static final String APP_ACTIVITY_TEST = "/app/TestActivity";
 
     // common 模块
     public static final String COMMON_ACTIVITY_EXPLOSION = "/common/ExplosionActivity";
@@ -16,8 +18,8 @@ public class RoutePath {
     public static final String COMMON_ACTIVITY_IMAGE = "/common/ImageActivity";
     public static final String COMMON_ACTIVITY_TEST_MAIN = "/common/TestMainActivity";
 
+    public static final String RB_ACTIVITY_RATING_BAR = "/ratingbar/RBActivity";
 
-    public static final String APP_ACTIVITY_TEST = "/app/TestActivity";
     public static final String TEST_ACTIVITY_Abb = "/testLibrary/AbbActivity";
     public static final String TEST_ACTIVITY_Acc = "/testLibrary/AccActivity";
 

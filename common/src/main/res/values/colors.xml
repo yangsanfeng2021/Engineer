@@ -4,6 +4,11 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
 
+    <color name="red">#ff0000</color>
+    <color name="green">#00ff00</color>
+    <color name="yellow">#ffff00</color>
+    <color name="blue">#0000ff</color>
+
     <color name="white">#ffffff</color>
     <color name="app_bg">#F7F7F7</color>
     <color name="line">#ebebeb</color>

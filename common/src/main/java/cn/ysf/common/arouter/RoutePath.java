@@ -17,6 +17,7 @@ public class RoutePath {
     public static final String COMMON_ACTIVITY_ANIM_LOGO = "/common/AnimLogoViewActivity";
     public static final String COMMON_ACTIVITY_IMAGE = "/common/ImageActivity";
     public static final String COMMON_ACTIVITY_TEST_MAIN = "/common/TestMainActivity";
+    public static final String COMMON_ACTIVITY_TOAST_UTIL = "/common/ToastUtil1Activity";
 
     public static final String RB_ACTIVITY_RATING_BAR = "/ratingbar/RBActivity";
 

@@ -101,6 +101,16 @@
                 app:lineVisible="true" />
 
             <cn.ysf.common.view.ItemView
+                android:id="@+id/toastUtilItemView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:iconArrowVisible="true"
+                app:iconVisible="true"
+                app:itemIcon="@mipmap/item_view"
+                app:itemTitle="自定义toast"
+                app:lineVisible="true" />
+
+            <cn.ysf.common.view.ItemView
                 android:id="@+id/testItemView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

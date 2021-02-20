@@ -2,10 +2,8 @@ package cn.ysf.ratingbar
 
 import android.graphics.Color
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import cn.ysf.common.arouter.RoutePath
 import cn.ysf.common.base.BaseActivity

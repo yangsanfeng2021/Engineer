@@ -1,10 +1,12 @@
 package cn.ysf.engineer;
 
 import android.app.Application;
+import android.graphics.Color;
 import android.util.Log;
 
 import com.alibaba.android.arouter.launcher.ARouter;
 
+import cn.ysf.common.util.ToastUtil;
 import cn.ysf.common.util.UtilsInit;
 
 public class App extends Application {
@@ -18,5 +20,11 @@ public class App extends Application {
         }
         ARouter.init(this);
         UtilsInit.init(this);
+
+        ToastUtil.init(getApplicationContext())//初始化
+//                .setBackground() 设置背景颜色 默认灰色白字
+                .setTextColor(Color.BLACK)//设置字体颜色
+                .setOrientation(ToastUtil.HORIZONTAL) //设置布局
+                .setTextSize(24).setPosition(ToastUtil.CENTER); //显示的位置
     }
 }
